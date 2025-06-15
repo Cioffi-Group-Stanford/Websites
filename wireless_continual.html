@@ -84,7 +84,7 @@
               <div class="publication-links">
                 <!-- Arxiv PDF link -->
                 <span class="link-block">
-                  <a href="" target="_blank"
+                  <a href="https://openreview.net/forum?id=xzaGCSM7Sv&nesting=2&sort=date-desc" target="_blank"
                     class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -224,6 +224,23 @@
     </div>
   </section>
 
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Methodology</h2>
+          <div class="content has-text-justified">
+            <p>
+              We cast cross-configuration channel prediction as a continual-learning problem and propose a unified pipeline that integrates three complementary adaptation strategies: (i) Experience Replay, using a fixed-size reservoir with loss-aware sampling to rehearse both current and past channel observations; (ii) Loss Regularization, employing Elastic Weight Consolidation and Synaptic Intelligence to penalize deviations in weights deemed important for earlier network conditions; and (iii) Learning without Forgetting, a memory-free distillation approach that preserves prior predictive behavior by training the current model to match the outputs of a frozen “teacher” model while fitting new data. They evaluate this framework across three representative 3GPP Urban Microcell scenarios and demonstrate that targeted replay and parameter anchoring lower the high-SNR NMSE floor by up to 2 dB, while even the lightweight distillation method yields consistent gains over naive fine-tuning, confirming the efficacy of rehearsal, anchoring, and distillation for handover-robust CSI prediction.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br>
+  <!-- End paper abstract -->
 
     <div class="container is-max-desktop">
       <div class="columns is-centered has-text-centered">
